@@ -52,3 +52,30 @@ int top = -1;
         }
     }
 }
+
+void push(int stack[], int *top, int size, int parcelID) {
+    if (*top == size - 1)
+        printf("Stack Overflow! Cannot add more parcels.\n");
+    else {
+        (*top)++;
+        stack[*top] = parcelID;
+        printf("Parcel ID %d added successfully.\n", parcelID);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
