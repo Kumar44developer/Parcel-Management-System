@@ -70,7 +70,15 @@ void pop(int stack[], int *top) {
         (*top)--;
     }
 }
-
+void display(int stack[], int top) {
+    if (top == -1)
+        printf("No parcels in storage.\n");
+    else {
+        printf("\nParcels currently in storage:\n");
+        for (int i = top; i >= 0; i--)
+            printf("Parcel ID: %d\n", stack[i]);
+    }
+}
 
 
 
