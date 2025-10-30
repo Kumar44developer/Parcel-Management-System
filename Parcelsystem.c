@@ -62,7 +62,14 @@ void push(int stack[], int *top, int size, int parcelID) {
         printf("Parcel ID %d added successfully.\n", parcelID);
     }
 }
-
+void pop(int stack[], int *top) {
+    if (*top == -1)
+        printf("Stack Underflow! No parcels to remove.\n");
+    else {
+        printf("Parcel ID %d removed from storage.\n", stack[*top]);
+        (*top)--;
+    }
+}
 
 
 
