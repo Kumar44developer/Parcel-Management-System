@@ -36,8 +36,8 @@ In logistics and warehousing environments, stacked parcels are typically process
 
 ```
 Parcel-Management-System/
-├── Parcelsystem.c   # Complete source code (stack logic, memory handling, CLI)
-└── README.md        # Project documentation
+├── Parcelsystem.c   
+└── README.md        
 ```
 
 ---
